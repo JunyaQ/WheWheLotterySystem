@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: orange;
+}
+.App{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 0.2rem solid;
+}
+
+.header{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: yellow;
+  background-image: linear-gradient(to right, blue , lightblue);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: width;
+}
+
+.leftside{
+  width: 25%;
+  background-color: yellowgreen;
+}
+.middle{
+  width: 50%;
+  background-color: pink;
+}
+.rightside{
+  width: 25%;
+  background-color: aqua;
+}
+img{
+  width: 100%;
+}
+.priceList{
+display: grid;
+grid-template-columns:auto auto;
+color: white;
+font-weight: bolder;
+justify-content: center;
+}
+
+.priceItem {
+  padding: 1vw 1vw 1vw 1vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vw;
+  width: 4vw;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    #1a237e 10%,
+    #bbdefb 20%,
+    #1565c0 30%,
+    #0288d1 50%,
+    #1565c0 60%,
+    #0288d1 75%,
+    #1a237e 95%
+  );
+  color: white;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.prBtn:hover{
+  border: 0.5rem solid hotpink;
+
+}
+.numList{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+
+.numItem{
+  background-color: black;
+  color: white;
+  margin: 0.2vw;
+  padding: 2vw 2vw 2vw 2vw;
+  cursor: pointer;
+  width: 1vw; 
+  height: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.buttonOn{
+  /* background-color: hotpink; */
+  font-weight: bold;
+  color: yellow;
+  font-size: 1rem;
+  border: 3px solid red;
+  
+}
+.buttonOff{
+  background-color: black;
+  font-weight: bold;
+  color: yellow;
+  font-size: 1rem;
+}
+
+.btnItem{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center; 
+}
+
+.optBtn{
+  padding: 1vw;
+  margin: 1vw;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bold;
+}
