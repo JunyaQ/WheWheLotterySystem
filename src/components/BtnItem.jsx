@@ -1,10 +1,10 @@
 import React from 'react'
-import NumItem from './NumItem'
 
-const BtnItem = ({optbtn, actionButton}) => {
+
+const BtnItem = ({optbtn, clickButton}) => {
   return (
     <div>
-        <button className='optBtn'>{optbtn}</button>
+        <button className= {`${optbtn}` } onClick={clickButton}>{optbtn}</button>
     </div>
   )
 }

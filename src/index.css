@@ -128,10 +128,17 @@ justify-content: center;
   justify-content: center; 
 }
 
-.optBtn{
+.RANDOM, .CASH, .CLEAR{
   padding: 1vw;
   margin: 1vw;
   background-color: goldenrod;
   color: black;
   font-weight: bold;
+}
+.CASH{
+  margin-top: 25vh
+}
+.sidebar{
+  text-align: left;
+  font-size: 1rem;
 }
