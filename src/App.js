@@ -46,7 +46,14 @@ function App() {
   // random function doesn't work
   const clickRandom = () =>{
     console.log("Random");
-// while random <5  keep adding to the list, and show on btnstatus
+// shuffle, get first 5 
+const shuffleNum = [...numbers];
+  for (let i = shuffleNum.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffleNum[i], shuffleNum[j]] = [shuffleNum[j], shuffleNum[i]];
+  }
+  const random = shuffleNum.slice(0, 5);
+  setSelectnum(random);
   }
 
   const [display, setDisplay] = useState(false);
@@ -91,8 +98,7 @@ function App() {
    </div>
 
      {/* for display receipt */}
-     <div className=' rightside btnItem'>
-    
+     <div className=' rightside'>
      {display == true && <Sidebar selectnum={selectnum} totalPrice={totalPrice} />}
         <BtnItem optbtn="CASH" clickButton={clickCash}/>
      </div>

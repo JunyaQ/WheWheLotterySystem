@@ -11,11 +11,10 @@ const Sidebar = ({selectnum, totalPrice}) => {
         {selectnum && selectnum.map(num => (
           <p key={num}>Mark: {num}</p>
         ))}
-    
-
-        <br/><br/>
+        <br/>
         <p>Total: ${totalPrice}.00</p>
     </div>
   )
 }
 export default Sidebar;
+ 
