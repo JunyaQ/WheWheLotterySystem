@@ -3,10 +3,11 @@ import React, {useState} from "react";
 const PriceItem =({pr,addpr, available})=>{
 
   const priceCountButton = () =>{
-    if(available){
+    if(available == true){
       addpr(pr);
     }
     else{
+      
       alert("Please select 5 numbers before choose price");
     }
   }

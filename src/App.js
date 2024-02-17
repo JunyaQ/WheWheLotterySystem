@@ -9,9 +9,7 @@ import Sidebar from './components/Sidebar';
 const numbers = 
   [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
   
-const prices = [
-  [1,5],
-  [10,20]];
+const prices = [1,5,10,20];
   
 
 
@@ -73,9 +71,9 @@ const shuffleNum = [...numbers];
     <img src={bg_img}/>
    
     <div className='priceList'>
-    {prices.flat().map((pr)=>(
+    {prices.map((pr)=>(
       // if selected number length ==5 then can add price
-      <PriceItem pr={pr} key={pr} addpr={addPrice} available={selectnum.length==5}/>
+      <PriceItem pr={pr} key={pr} addpr={addPrice} available={selectnum.length===5}/>
     ))}
     </div>
     </div>
@@ -99,7 +97,7 @@ const shuffleNum = [...numbers];
 
      {/* for display receipt */}
      <div className=' rightside'>
-     {display == true && <Sidebar selectnum={selectnum} totalPrice={totalPrice} />}
+     {display === true && <Sidebar selectnum={selectnum} totalPrice={totalPrice} />}
         <BtnItem optbtn="CASH" clickButton={clickCash}/>
      </div>
      </div>

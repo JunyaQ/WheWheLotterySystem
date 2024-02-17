@@ -125,7 +125,7 @@ justify-content: center;
   cursor: pointer;
 }
 .buttonOn{
-  /* background-color: hotpink; */
+  /* background-color: red; */
   font-weight: bold;
   color: yellow;
   font-size: 1rem;

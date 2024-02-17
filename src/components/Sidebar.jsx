@@ -8,7 +8,7 @@ const Sidebar = ({selectnum, totalPrice}) => {
           <p key={num}>Mark: {num}</p> */}
         {/* ))} */}
       
-        {selectnum && selectnum.map(num => (
+        {selectnum.map(num => (
           <p key={num}>Mark: {num}</p>
         ))}
         <br/>
