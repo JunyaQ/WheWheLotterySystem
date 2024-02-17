@@ -164,3 +164,12 @@ justify-content: center;
   color: black;
   font-weight: bold;
 }
+.middle{
+  background-color: #1565c0;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}

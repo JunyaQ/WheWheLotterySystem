@@ -70,7 +70,7 @@ const shuffleNum = [...numbers];
       <div className='container'>
     {/*left side, img and price bar */}
     <div className='leftside'>
-    <img src={bg_img}/>
+    <img src={bg_img} alt='balls for the game'/>
    
     <div className='priceList'>
     {prices.map((pr)=>(
