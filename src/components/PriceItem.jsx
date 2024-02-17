@@ -1,13 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 
 const PriceItem =({pr,addpr, available})=>{
 
   const priceCountButton = () =>{
-    if(available == true){
+    if(available === true){
       addpr(pr);
     }
     else{
-      
       alert("Please select 5 numbers before choose price");
     }
   }
