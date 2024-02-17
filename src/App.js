@@ -21,6 +21,7 @@ function App() {
   }
 
   const[selectnum,setSelectnum] = useState([]);// for a list of 5 nums
+  // add num to list
   const addNum = (num) =>{
     console.log(selectnum);
     if(selectnum.includes(num)){
@@ -41,7 +42,7 @@ function App() {
     console.log("clear");
   }
 
-  // random function doesn't work
+  // random function
   const clickRandom = () =>{
     console.log("Random");
 // shuffle, get first 5 
@@ -50,6 +51,7 @@ const shuffleNum = [...numbers];
     const j = Math.floor(Math.random() * (i + 1));
     [shuffleNum[i], shuffleNum[j]] = [shuffleNum[j], shuffleNum[i]];
   }
+  //get first 5, add to thee list 
   const random = shuffleNum.slice(0, 5);
   setSelectnum(random);
   }
@@ -82,7 +84,7 @@ const shuffleNum = [...numbers];
      <div className='middle'>
     <div className='numList'>
     {numbers.map((num)=>(
-      <NumItem num={num} key={num} select={addNum} btnStatus={selectnum.includes(num)}>{numbers}</NumItem>
+      <NumItem num={num} key={num} select={addNum} btnStatus={selectnum.includes(num)}/>
     ))}
     </div>
 
