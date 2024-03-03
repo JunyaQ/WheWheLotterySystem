@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WheWheLotterySystem/static/css/main.a9bd31d3.css",
+    "main.js": "/WheWheLotterySystem/static/js/main.f5ddd8ac.js",
+    "static/js/592.16751089.chunk.js": "/WheWheLotterySystem/static/js/592.16751089.chunk.js",
+    "static/media/bg_img.png": "/WheWheLotterySystem/static/media/bg_img.e6fc85e1b0f08ef72050.png",
+    "index.html": "/WheWheLotterySystem/index.html",
+    "main.a9bd31d3.css.map": "/WheWheLotterySystem/static/css/main.a9bd31d3.css.map",
+    "main.f5ddd8ac.js.map": "/WheWheLotterySystem/static/js/main.f5ddd8ac.js.map",
+    "592.16751089.chunk.js.map": "/WheWheLotterySystem/static/js/592.16751089.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9bd31d3.css",
+    "static/js/main.f5ddd8ac.js"
+  ]
+}
