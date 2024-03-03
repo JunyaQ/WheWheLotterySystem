@@ -10,3 +10,4 @@ Cash Register System that is designed to function within a fictional lottery sys
 4. After 5 numbers are selected, the cashier is allowed to add money value to the ticket
 5. The "Clear" button will clear all selected numbers and money values assigned
 6. The "Random" button will randomly choose 5 numbers between 1-20
+![image](https://github.com/JunyaQ/WheWheLotterySystem/assets/62684140/df0e3583-d91c-444a-8fdd-be4241efa5bc)
